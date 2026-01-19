@@ -6,7 +6,7 @@ import ThreeScene from "./ThreeScene";
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-[80vh] md:h-screen overflow-hidden">
       
       {/* Background Video */}
       <video
@@ -32,10 +32,20 @@ const HeroSection = () => {
       </div>
 
 <div className="absolute bottom-10 w-full flex justify-center z-30">
-  <button className="w-[80%] sm:w-[15%] h-[50px] flex items-center justify-center gap-3 rounded-lg border border-amber-500 bg-black text-white font-bold hover:bg-gray-800 transition-all text-lg">
-   <p>Explore More </p>  <p><ChevronsDown size={34} color="gold"/></p>
+  <button
+    onClick={() =>
+      window.scrollBy({
+        top: 200, // adjust this value for more/less movement
+        behavior: "smooth",
+      })
+    }
+    className="w-[80%] sm:w-[15%] h-[50px] flex items-center justify-center gap-3 rounded-lg border border-amber-500 bg-black text-white font-bold hover:bg-gray-800 transition-all text-lg"
+  >
+    <p>Explore More</p>
+    <ChevronsDown size={34} color="gold" />
   </button>
 </div>
+
 
 
     </div>
