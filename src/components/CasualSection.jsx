@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react'
 
 const CasualSection = () => {
@@ -23,12 +25,12 @@ const CasualSection = () => {
                 </div>
 
                 <div className="md:w-[40%] flex flex-col md:items-center md:justify-center">
-                    <div className=" w-full   ">
-                        <h1 className="text-4xl font-bold text-center text-amber-400">Casual For Daily Use</h1>
-                        <div className="pt-8 ">
+                    <div data-aos="fade-up" className=" w-full   ">
+                        <h1  className="text-4xl font-bold text-center text-amber-400">Casual For Daily Use</h1>
+                        <div data-aos="fade-up" className="pt-8 ">
                             <p className="text-xl font-semibold text-center text-white ">Look Like a Classic</p>
                         </div>
-                        <div className="flex items-center justify-center mt-8 md:mt-16">
+                        <div data-aos="fade-right" className="flex items-center justify-center mt-8 md:mt-16">
                             <button className="
                             w-[200px]
                             p-3

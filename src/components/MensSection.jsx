@@ -5,12 +5,12 @@ const MensSection = () => {
         <div className=" h-[750px] flex items-center justify-center bg-black">
             <div className="bg--400 w-full h-[90%] md:h-full flex flex-col md:flex-row">
                 <div className="h-[50%] md:h-full md:w-[50%] flex flex-col  md:items-start md:p-10 md:justify-center ">
-                    <h1 className="text-4xl font-bold text-center text-amber-400">Rugged Watch Buyers Guide</h1>
+                    <h1 data-aos="fade-up" className="text-4xl font-bold text-center text-amber-400">Rugged Watch Buyers Guide</h1>
                     <div className="pt-8 ">
-                        <p className="text-xl font-semibold text-center text-white ">Rugged is the new Cool</p>
+                        <p data-aos="fade-up" className="text-xl font-semibold text-center text-white ">Rugged is the new Cool</p>
                     </div>
                     <div className="flex items-center justify-center mt-8 md:mt-16">
-                        <button className="
+                        <button data-aos="fade-right" className="
                             w-[200px]
                             p-3
                             rounded-r-full
@@ -31,7 +31,7 @@ const MensSection = () => {
 
                 </div>
 
-                <div className="relative w-full h-[50%] md:h-full md:w-[50%]">
+                <div data-aos="fade-up" className="relative w-full h-[50%] md:h-full md:w-[50%]">
                     <Image
                         src="/watch model.png"
                         alt="Background"

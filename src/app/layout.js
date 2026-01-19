@@ -1,4 +1,6 @@
+import AOSProvider from "@/components/AOSProvider";
 import "./globals.css";
+import "aos/dist/aos.css";
 
 
 export const metadata = {
@@ -11,6 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
       >
+        <AOSProvider/>
         {children}
       </body>
     </html>

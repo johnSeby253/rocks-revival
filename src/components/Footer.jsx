@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 
 const Footer = () => {
@@ -9,7 +11,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
 
           {/* Logo & Brand */}
-          <div className="flex flex-col items-center md:items-start gap-4">
+          <div  data-aos="fade-up" className="flex flex-col items-center md:items-start gap-4">
             <Image
               src="/logo2.png"
               alt="Rock Revival"
